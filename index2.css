@@ -1,7 +1,8 @@
 header h1{
     display: flex;
     background-color: gray;
-    font-family: Snell Roundhand,serif;
+    color: white;
+    font-family: "Hind", Tahoma, Geneva, sans-serif;
     
 }
 header form{
@@ -9,10 +10,15 @@ header form{
         background-color: rgb(235, 135, 215);
         border-radius: 10px 70px 0px 70px;
         padding: 10px;
-        margin-left: 450px;
+        margin-left: 50%;
 }
 body{
-    font-family: Snell Roundhand,serif;
+    font-family: "Hind", Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #818491;
+    background-color: blanchedalmond;
 }
   ul{
     list-style-type: none;
@@ -29,7 +35,8 @@ h1.société{
 .devise{
     text-align: center;
     font-size: 20px; 
-    border-bottom: 5px gray solid;
+    padding-bottom: 2%;
+    border-bottom: 2px gray solid;
 }
 img {
     width: 200px;
@@ -39,6 +46,22 @@ img {
 }
 span{
     display: flex;
-    border-top: 5px gray solid;
-    border-bottom: 5px gray solid;
+    border-top: 2px gray solid;
+    border-bottom: 2px gray solid;
+}
+.bouquets {
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+
+.bouquets2 {
+    text-align: center;
+}
+img {
+    border-radius: 30px;
+}
+.nosengagements {
+    padding-bottom: 2%;
+
 }
